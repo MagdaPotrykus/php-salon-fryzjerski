@@ -2,7 +2,7 @@
     
     session_start();
 
-    if((isset($_SESSION['logged'])) && ($_SESSION['logged'])==true)
+    if((isset($_SESSION['logged_admin'])) && ($_SESSION['logged_admin'])==true)
     {
         header('Location: info.php');
         exit();

@@ -8,10 +8,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="../admin/reservation.php">Rezerwacje</a>
+                    <a class="nav-link" href="/php-salon-fryzjerski/admin/reservations/showReservations.php">Rezerwacje</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../admin/info.php">Twoje dane</a>
+                    <a class="nav-link" href="/php-salon-fryzjerski/admin/services/showServices.php">Dostępne usługi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/php-salon-fryzjerski/admin/customers/showCustomers.php">Lista klientów</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/php-salon-fryzjerski/admin/info.php">Twoje dane</a>
                 </li>
             </ul>          
         </div>

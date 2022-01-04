@@ -32,14 +32,14 @@ else
         $numAdmins = $result->num_rows;
         if($numAdmins > 0)
         {
-            $_SESSION['logged'] = true;
+            $_SESSION['logged_admin'] = true;
             $row = $result->fetch_assoc();
             $_SESSION['first_name'] = $row['first_name'];
             $_SESSION['last_name'] = $row['last_name'];
             $_SESSION['email'] = $row['email'];
             unset($_SESSION['error']);
             $result->close();//pozbywamy sie z pamieci obiektu result
-            header('Location: reservation.php');//header wysyła surowe nagłówki http
+            header('Location: reservations/showReservations.php');//header wysyła surowe nagłówki http
         }
         else
         {

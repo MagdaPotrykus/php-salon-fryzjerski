@@ -2,7 +2,7 @@
 
     session_start();
 
-    if(!isset($_SESSION['logged'])) 
+    if(!isset($_SESSION['logged_admin'])) 
     { 
         header('Location: index.php');
         exit(); 
